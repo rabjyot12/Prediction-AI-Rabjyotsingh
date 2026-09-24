@@ -127,7 +127,7 @@ This focuses on strategic actions required for sustainable growth, scalability, 
 
 The planned strategic reasoning workflow consists of six connected nodes:
 
-
+```text
 Project Input
      ↓
 analyze_project
@@ -141,6 +141,7 @@ generate_mitigation
 generate_improvements
      ↓
 generate_final_response
+```
 
 A shared state carries information between the nodes.
 
@@ -214,7 +215,8 @@ Improvement suggestions
 Short-term action plan
 Long-term action plan
 Final strategic assessment
-13. Conclusion
+
+## 13. Conclusion
 
 Milestone 3 extends the Startup & Project Risk Analyzer from assessment to strategic decision support.
 
