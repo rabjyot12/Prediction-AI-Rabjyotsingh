@@ -150,6 +150,7 @@ Milestone 1 produces information that is required by Milestone 2.
 
 The overall progression is:
 
+```text
 Milestone 1
 Project Information
        +
@@ -176,6 +177,7 @@ Risk Mitigation
 Improvements
        +
 Strategic Reasoning
+```
 
 This makes Milestone 1 the information-collection and analysis foundation for the complete system.
 
