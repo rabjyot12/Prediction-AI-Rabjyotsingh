@@ -91,6 +91,7 @@ View feasibility results.
 
 The Milestone 2 workflow should follow:
 
+```text
 Milestone 1 Output
        ↓
 Risk Factor Assessment
@@ -106,6 +107,7 @@ SWOT Analysis
 Feasibility Analysis
        ↓
 Milestone 2 Results
+```
 
 ## 9. Expected Output
 
