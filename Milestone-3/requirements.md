@@ -107,3 +107,68 @@ generate_mitigation
 generate_improvements
       ↓
 generate_final_response
+
+## 7. LLM Integration
+
+The system should support an LLM such as Google Gemini or OpenAI for strategic reasoning.
+
+The API key should:
+
+Be stored using an environment variable.
+Never be hard-coded in the source code.
+
+The system should also support a clearly labelled Demo Mode when an API key is not available.
+
+## 8. Final Strategic Response
+
+The system should combine the outputs of the different stages into a final response containing:
+
+Project Summary
+Risk Summary
+Key Strategic Recommendations
+Risk-Based Recommendations
+Mitigation Strategies
+Improvement Suggestions
+Short-Term Action Plan
+Long-Term Action Plan
+Final Strategic Assessment
+
+## 9. Dashboard
+
+The application should provide sections for:
+
+Project Information
+Risk Assessment
+SWOT
+Feasibility
+AI Recommendations
+Risk Mitigation
+Improvement Plan
+Final Report
+
+The M3 interface should allow the user to view the generated strategic outputs.
+
+## 10. Data Storage
+
+The system should store relevant project assessment and M3 results, including:
+
+Project information
+Risk information
+Recommendations
+Mitigation strategies
+Improvements
+Generated results
+Timestamp
+11. Acceptance Criteria
+
+Milestone 3 should demonstrate that:
+
+Previous milestone information is used.
+Strategic recommendations are generated.
+Recommendations are connected to identified risks.
+Risk mitigation strategies are generated.
+Improvement suggestions are generated.
+The LangGraph workflow is represented using the required nodes.
+The dashboard displays the M3 outputs.
+Demo Mode works when an API key is unavailable.
+The system can produce a final strategic response.
