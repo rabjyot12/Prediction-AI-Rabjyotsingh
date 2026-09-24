@@ -181,6 +181,7 @@ Displays the strategic reasoning workflow and its processing stages.
 
 The complete flow can be represented as:
 
+```text
 Milestone 1
 Project + Market Information
         ↓
@@ -197,6 +198,7 @@ Improvement Suggestions
 Short-Term / Long-Term Actions
         ↓
 Final Strategic Response
+```
 
 ## 12. Expected Output
 
