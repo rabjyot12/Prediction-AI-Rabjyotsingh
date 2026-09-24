@@ -156,3 +156,9 @@ Risk + SWOT + Feasibility
         ↓
 Milestone 3
 Recommendations + Mitigation + Improvements
+
+## 11. Conclusion
+
+Milestone 2 transforms the project and market information collected in Milestone 1 into a structured risk and feasibility assessment.
+
+It provides the numerical and analytical foundation required by the recommendation and strategic reasoning components of the subsequent milestone.
