@@ -66,7 +66,7 @@ Final Strategic Assessment
 ```
 
 ## Milestones
-# Milestone 1 – Information Collection and Market Analysis
+### Milestone 1 – Information Collection and Market Analysis
 
 The first milestone establishes the project foundation.
 
@@ -81,7 +81,7 @@ Structured project data
 
 The output of Milestone 1 provides the context required for risk assessment.
 
-# Milestone 2 – Risk Assessment and Feasibility
+### Milestone 2 – Risk Assessment and Feasibility
 
 Milestone 2 evaluates the project's potential risks and feasibility.
 
@@ -111,14 +111,14 @@ Success probability is calculated as:
 Success Probability = max(0, 100 - Risk Score)
 ```
 
-# Milestone 3 – Recommendations and Strategic Reasoning
+### Milestone 3 – Recommendations and Strategic Reasoning
 
 
 Milestone 3 converts the results of the previous milestones into actionable strategies.
 
 It includes:
 
-# Strategic Recommendations
+#### Strategic Recommendations
 Overall Strategic Recommendation
 Risk-Based Recommendations
 Market Recommendations
@@ -126,7 +126,7 @@ Technical Recommendations
 Financial Recommendations
 Operational Recommendations
 
-# Risk Mitigation
+#### Risk Mitigation
 
 For identified risks, the system provides:
 
@@ -138,7 +138,7 @@ Mitigation Strategy
 Preventive Action
 Contingency Action
 
-# Improvement Suggestions
+#### Improvement Suggestions
 
 The system provides improvement suggestions across:
 
@@ -149,7 +149,7 @@ Financial
 Operational
 Marketing
 
-# Action Plans
+#### Action Plans
 Short-Term Action Plan
 Long-Term Action Plan
 
@@ -174,57 +174,57 @@ generate_final_response
 The workflow uses a shared state so that information generated at each stage can be passed to the next stage.
 
 ## Technology Stack
-# Python
+### Python
 
 Used as the primary programming language for the application and backend logic.
 
-# Streamlit
+### Streamlit
 
 Used to provide the interactive application interface and dashboard.
 
-# Google Gemini
+### Google Gemini
 
 Used as the LLM reasoning component for generating strategic recommendations when configured.
 
-# LangGraph
+### LangGraph
 
 Used to organize the strategic reasoning process into connected workflow nodes.
 
-# PostgreSQL / Database Layer
+### PostgreSQL / Database Layer
 
 Used for structured storage of project and assessment information in the project implementation.
 
-# HTML / CSS
+### HTML / CSS
 
 Used for interface styling where required.
 
 
 ## Key Project Components
-# risk_engine.py
+### risk_engine.py
 
 Handles the project's risk scoring, risk classification, and success probability calculation.
 
-# recommendation_engine.py
+### recommendation_engine.py
 
 Generates strategic and risk-based recommendations along with short-term and long-term action plans.
 
-# mitigation_engine.py
+### mitigation_engine.py
 
 Generates mitigation, preventive, and contingency strategies for identified risks.
 
-# improvement_engine.py
+### improvement_engine.py
 
 Generates practical improvement suggestions across different project areas.
 
-# llm_service.py
+### llm_service.py
 
 Provides the interface for LLM-based strategic reasoning.
 
-# database.py
+### database.py
 
 Handles database-related operations.
 
-# app_streamlit.py
+### app_streamlit.py
 
 Provides the interactive Streamlit application and integrates the different project components.
 
