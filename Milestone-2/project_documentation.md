@@ -52,7 +52,7 @@ The resulting score represents the overall risk level of the project.
 
 The calculated risk score is converted into a risk status.
 
-
+```text
 Risk Score >= 70
         ↓
 HIGH RISK
@@ -64,7 +64,7 @@ MEDIUM RISK
 Risk Score < 40
         ↓
 LOW RISK
-
+```
 
 ## 5. Success Probability
 
@@ -110,6 +110,7 @@ The result is displayed along with the other Milestone 2 assessment outputs.
 
 The Milestone 2 workflow is:
 
+```text
 Project Information
         ↓
 Market & Competitor Information
@@ -127,6 +128,7 @@ SWOT Analysis
 Feasibility Score
         ↓
 Milestone 2 Assessment
+```
 
 ## 9. Application Output
 
@@ -148,6 +150,7 @@ The risk score, identified risks, SWOT analysis, feasibility score, project info
 
 The overall progression is:
 
+```text
 Milestone 1
 Project + Market Information
         ↓
@@ -156,6 +159,7 @@ Risk + SWOT + Feasibility
         ↓
 Milestone 3
 Recommendations + Mitigation + Improvements
+```
 
 ## 11. Conclusion
 
